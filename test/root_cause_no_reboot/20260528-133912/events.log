@@ -1,0 +1,36 @@
+ts,event,msg
+2026-05-28T13:39:12,start,out_dir=/Users/studio/ds4/test/root_cause_no_reboot/20260528-133912 repeats=2 power=70 timeout=360
+2026-05-28T13:39:12,cleanup_iter,begin
+2026-05-28T13:39:14,cleanup_iter,end
+2026-05-28T13:39:14,iter_start,case=bench_warmoff iter=1 warm=0 mode=bench
+2026-05-28T13:40:45,iter_end,case=bench_warmoff iter=1 pass=True max=42.137 gt5=0 tokens=512 miss=False
+2026-05-28T13:40:45,cleanup_iter,begin
+2026-05-28T13:40:47,cleanup_iter,end
+2026-05-28T13:40:48,iter_start,case=bench_warmoff iter=2 warm=0 mode=bench
+2026-05-28T13:42:18,iter_end,case=bench_warmoff iter=2 pass=True max=42.54 gt5=0 tokens=512 miss=False
+2026-05-28T13:42:18,cleanup_iter,begin
+2026-05-28T13:42:21,cleanup_iter,end
+2026-05-28T13:42:21,iter_start,case=bench_warmon iter=1 warm=1 mode=bench
+2026-05-28T13:43:52,iter_end,case=bench_warmon iter=1 pass=True max=41.859 gt5=0 tokens=512 miss=False
+2026-05-28T13:43:52,cleanup_iter,begin
+2026-05-28T13:43:54,cleanup_iter,end
+2026-05-28T13:43:54,iter_start,case=bench_warmon iter=2 warm=1 mode=bench
+2026-05-28T13:45:25,iter_end,case=bench_warmon iter=2 pass=True max=41.058 gt5=0 tokens=512 miss=False
+2026-05-28T13:45:25,cleanup_iter,begin
+2026-05-28T13:45:27,cleanup_iter,end
+2026-05-28T13:45:27,iter_start,case=agent_warmoff iter=1 warm=0 mode=agent_self
+2026-05-28T13:49:13,iter_end,case=agent_warmoff iter=1 pass=True max=41.639 gt5=0 tokens=512 miss=False
+2026-05-28T13:49:13,cleanup_iter,begin
+2026-05-28T13:49:15,cleanup_iter,end
+2026-05-28T13:49:15,iter_start,case=agent_warmoff iter=2 warm=0 mode=agent_self
+2026-05-28T13:51:14,iter_end,case=agent_warmoff iter=2 pass=True max=41.643 gt5=0 tokens=512 miss=False
+2026-05-28T13:51:14,cleanup_iter,begin
+2026-05-28T13:51:16,cleanup_iter,end
+2026-05-28T13:51:16,iter_start,case=agent_warmon iter=1 warm=1 mode=agent_self
+2026-05-28T13:55:01,iter_end,case=agent_warmon iter=1 pass=True max=41.585 gt5=0 tokens=512 miss=False
+2026-05-28T13:55:01,cleanup_iter,begin
+2026-05-28T13:55:03,cleanup_iter,end
+2026-05-28T13:55:03,iter_start,case=agent_warmon iter=2 warm=1 mode=agent_self
+2026-05-28T13:57:18,iter_end,case=agent_warmon iter=2 pass=True max=58.122 gt5=0 tokens=512 miss=False
+2026-05-28T13:57:18,finished,done out_dir=/Users/studio/ds4/test/root_cause_no_reboot/20260528-133912
+2026-05-28T13:57:18,cleanup,exit_or_signal

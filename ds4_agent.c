@@ -6748,6 +6748,10 @@ static char *agent_execute_tool_call(agent_worker *w, const agent_tool_call *cal
         int timeout = agent_parse_timeout(agent_tool_arg_value(call, "timeout_sec"));
         int refresh = agent_parse_int_default(agent_tool_arg_value(call, "refresh_sec"),
                                               60, 1, 3600);
+        /* In non-interactive mode we want deterministic one-shot tool execution:
+         * avoid periodic intermediate observations that can trigger another model
+         * round while the same long-running command is still active. */
+        if (w->cfg && w->cfg->non_interactive && refresh < timeout) refresh = timeout;
         char err[160] = {0};
         agent_bash_job *job = agent_bash_start(w, cmd, timeout, err, sizeof(err));
         if (!job) {
