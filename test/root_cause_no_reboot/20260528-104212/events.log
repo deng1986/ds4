@@ -1,0 +1,58 @@
+ts,event,msg
+2026-05-28T10:42:12,start,out_dir=/Users/studio/ds4/test/root_cause_no_reboot/20260528-104212 repeats=3 power=70 timeout=360
+2026-05-28T10:42:12,cleanup_iter,begin
+2026-05-28T10:42:14,cleanup_iter,end
+2026-05-28T10:42:14,iter_start,case=bench_warmoff iter=1 warm=0 mode=bench
+2026-05-28T10:43:43,iter_end,case=bench_warmoff iter=1 pass=True max=40.443 gt5=0 tokens=512 miss=False
+2026-05-28T10:43:43,cleanup_iter,begin
+2026-05-28T10:43:45,cleanup_iter,end
+2026-05-28T10:43:45,iter_start,case=bench_warmoff iter=2 warm=0 mode=bench
+2026-05-28T10:45:14,iter_end,case=bench_warmoff iter=2 pass=True max=41.109 gt5=0 tokens=512 miss=False
+2026-05-28T10:45:14,cleanup_iter,begin
+2026-05-28T10:45:16,cleanup_iter,end
+2026-05-28T10:45:16,iter_start,case=bench_warmoff iter=3 warm=0 mode=bench
+2026-05-28T10:46:45,iter_end,case=bench_warmoff iter=3 pass=True max=40.212 gt5=0 tokens=512 miss=False
+2026-05-28T10:46:45,cleanup_iter,begin
+2026-05-28T10:46:47,cleanup_iter,end
+2026-05-28T10:46:47,iter_start,case=bench_warmon iter=1 warm=1 mode=bench
+2026-05-28T10:48:16,iter_end,case=bench_warmon iter=1 pass=True max=41.307 gt5=0 tokens=512 miss=False
+2026-05-28T10:48:16,cleanup_iter,begin
+2026-05-28T10:48:18,cleanup_iter,end
+2026-05-28T10:48:18,iter_start,case=bench_warmon iter=2 warm=1 mode=bench
+2026-05-28T10:49:47,iter_end,case=bench_warmon iter=2 pass=True max=41.083 gt5=0 tokens=512 miss=False
+2026-05-28T10:49:47,cleanup_iter,begin
+2026-05-28T10:49:49,cleanup_iter,end
+2026-05-28T10:49:49,iter_start,case=bench_warmon iter=3 warm=1 mode=bench
+2026-05-28T10:51:17,iter_end,case=bench_warmon iter=3 pass=True max=40.431 gt5=0 tokens=512 miss=False
+2026-05-28T10:51:18,cleanup_iter,begin
+2026-05-28T10:51:20,cleanup_iter,end
+2026-05-28T10:51:20,iter_start,case=agent_warmoff iter=1 warm=0 mode=agent_self
+2026-05-28T10:57:22,iter_timeout,case=agent_warmoff iter=1 elapsed=362s pid=25390
+2026-05-28T10:57:31,iter_end,case=agent_warmoff iter=1 pass=False max=36760.476 gt5=2 tokens=392 miss=False
+2026-05-28T10:57:31,cleanup_iter,begin
+2026-05-28T10:57:33,cleanup_iter,end
+2026-05-28T10:57:33,iter_start,case=agent_warmoff iter=2 warm=0 mode=agent_self
+2026-05-28T11:03:35,iter_timeout,case=agent_warmoff iter=2 elapsed=362s pid=29057
+2026-05-28T11:03:40,iter_end,case=agent_warmoff iter=2 pass=False max=36548.192 gt5=2 tokens=390 miss=False
+2026-05-28T11:03:40,cleanup_iter,begin
+2026-05-28T11:03:42,cleanup_iter,end
+2026-05-28T11:03:42,iter_start,case=agent_warmoff iter=3 warm=0 mode=agent_self
+2026-05-28T11:09:44,iter_timeout,case=agent_warmoff iter=3 elapsed=362s pid=32454
+2026-05-28T11:09:50,iter_end,case=agent_warmoff iter=3 pass=False max=36680.714 gt5=2 tokens=390 miss=False
+2026-05-28T11:09:50,cleanup_iter,begin
+2026-05-28T11:09:52,cleanup_iter,end
+2026-05-28T11:09:52,iter_start,case=agent_warmon iter=1 warm=1 mode=agent_self
+2026-05-28T11:15:53,iter_timeout,case=agent_warmon iter=1 elapsed=361s pid=36263
+2026-05-28T11:15:59,iter_end,case=agent_warmon iter=1 pass=False max=36643.253 gt5=2 tokens=390 miss=False
+2026-05-28T11:15:59,cleanup_iter,begin
+2026-05-28T11:16:01,cleanup_iter,end
+2026-05-28T11:16:01,iter_start,case=agent_warmon iter=2 warm=1 mode=agent_self
+2026-05-28T11:22:03,iter_timeout,case=agent_warmon iter=2 elapsed=362s pid=39527
+2026-05-28T11:22:05,iter_end,case=agent_warmon iter=2 pass=False max=36679.849 gt5=3 tokens=391 miss=False
+2026-05-28T11:22:05,cleanup_iter,begin
+2026-05-28T11:22:07,cleanup_iter,end
+2026-05-28T11:22:07,iter_start,case=agent_warmon iter=3 warm=1 mode=agent_self
+2026-05-28T11:28:09,iter_timeout,case=agent_warmon iter=3 elapsed=362s pid=42751
+2026-05-28T11:28:10,iter_end,case=agent_warmon iter=3 pass=False max=35079.142 gt5=3 tokens=390 miss=False
+2026-05-28T11:28:10,finished,done out_dir=/Users/studio/ds4/test/root_cause_no_reboot/20260528-104212
+2026-05-28T11:28:10,cleanup,exit_or_signal

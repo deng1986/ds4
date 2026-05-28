@@ -1,0 +1,7 @@
+case,iter,max_execute_ms,gt_1000ms,gt_5000ms,token_count,timeout
+bench_warmoff,1,41.133,0,0,512,0
+bench_warmoff,2,40.695,0,0,512,0
+bench_warmoff,3,41.067,0,0,512,0
+bench_warmon,1,41.227,0,0,512,0
+bench_warmon,2,42.35,0,0,512,0
+bench_warmon,3,41.354,0,0,512,0
